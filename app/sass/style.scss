@@ -9,12 +9,12 @@
 @import "core/bootstrap-vars";
 
 // PRIMARY - ADDONS
-@import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
 @import "../../node_modules/bootstrap/scss/grid";
 @import "../../node_modules/font-awesome/scss/font-awesome.scss";
-// BOOTSTRAP - ADDONS (Import SCSS below)
+// BOOTSTRAP - ADDONS (Import any component e.g. NAVBAR and override their settings in VARIABLES file)
+@import "../../node_modules/bootstrap/scss/navbar";
 
 // SECONDARY
 @import "components/layout";

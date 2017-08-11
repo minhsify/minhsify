@@ -29,6 +29,7 @@ Table Generator: http://www.tablesgenerator.com/
 */
 
 /* -- THIRD PARTY LINKS FOR CSS
+Declare Placeholders : http://thesassway.com/intermediate/using-object-oriented-css-with-sass
 Click Chart: http://css3clickchart.com/
 CSS Arrows: http://www.cssarrowplease.com/
 CSS Guide: http://cssreference.io/
@@ -39,34 +40,32 @@ CSS Values: http://cssvalues.com/
 SCSS Guide: http://thesassway.com/
 */
 
-// MEDIA QUERIES DECLARATION
-// FONT SIZE MIXIN DECLARATION
-// VARIABLES DECLARATION
+// FONT MIXIN DECLARATION
+// FONT WEIGHTS
 // SELECTION COLOR DECLARATION
 // HYPERLINK MIXIN DECLARATION
 // BOOTSTRAP FIXES
 // HELPERS
 
-// FONT SIZE MIXIN DECLARATION
+// FONT MIXIN DECLARATION
 @mixin font-size($sizeValue: 16) {
   font-size: ($sizeValue) + px;
   font-size: ($sizeValue / 16) + rem;
 }
+
 // FONT WEIGHTS
 $fw-light: 300;
 $fw-regular: 400;
 $fw-medium: 500;
-$fw-bold: 600;
-$fw-black: 700;
+$fw-medium-x: 600;
+$fw-bold: 700;
+$fw-bold-x: 800;
+$fw-black: 900;
 
-// Please declare color names with postfix -color. See more - http://thesassway.com/beginner/variable-naming
-// STANDARD COLORS
-$black: #000;
-$white: #fff;
-
-// SELECTION COLOR DECLARATION - https://css-tricks.com/almanac/selectors/s/selection/
+// SELECTION COLOR DECLARATION
+// https://css-tricks.com/almanac/selectors/s/selection
 *::-moz-selection,
 *::selection {
-  color: $white;
-  background-color: $black;
+  color: white;
+  background-color: black;
 }
