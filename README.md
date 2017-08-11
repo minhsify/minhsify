@@ -50,10 +50,3 @@ Create a new directory with name `media` inside `app` directory. Please store an
 2.  Please use HTTP2 `defer` or `async` attributes when you want to load scripts in document's `head`.
 #### 6. Are there any tricks to speed up development process?
 Use `npm run bs` to quickly fetch and see Bootstrap SCSS variables under `app/sass` location. Use `npm run bsx` to remove that fetched file.
-#### 7. How to remove UNCSS feature? (DEPRECATED)
-1.  In the **package.json** file:
-Please remove `uncss` from `autoprefixer` task. Please remove `uncss_bootstrap` and `uncss_style` tasks.
-2.  In the **app/pug/_layouts/default.pug** file: 
-Rename location for following stylesheets: `bootstrap.min.css` to `bootstrap.css` and `style.min.css` to `style.css`.
-3.  In **ROOT location** of your application:  
-Run the following command: `npm uninstall --save-dev uncss` to remove uncss plugin and dependencies.
