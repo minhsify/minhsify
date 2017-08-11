@@ -47,16 +47,6 @@ SCSS Guide: http://thesassway.com/
 // BOOTSTRAP FIXES
 // HELPERS
 
-// MEDIA QUERIES DECLARATION
-$mobile: "only screen and (max-width: 480px)";
-$phablet: "only screen and (max-width: 768px)";
-$tablet: "only screen and (max-width: 992px)";
-$desktop: "only screen and (max-width: 1200px)";
-$mobile__up: "only screen and (min-width: 480px)";
-$phablet__up: "only screen and (min-width: 768px)";
-$tablet__up: "only screen and (min-width: 992px)";
-$desktop__up: "only screen and (min-width: 1200px)";
-
 // FONT SIZE MIXIN DECLARATION
 @mixin font-size($sizeValue: 16) {
   font-size: ($sizeValue) + px;
