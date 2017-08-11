@@ -16,7 +16,7 @@ Web App Kit is a boilerplate to create Front-End web applications based on Boots
 | HTML Linting | HTML Linting is done using [HTML Inspector](https://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js). Please check your Browser console for HTML based errors.
 | HTML Meta Tags | Usage of Twitter and Facebook OG Graph tags are available in `default.pug` file.
 | SCSS Linting | SCSS Linting is done using [Stylelint](https://www.npmjs.com/package/stylelint).
-| JavaScript Linting | JavaScript Linting is done using [ESLint](https://eslint.org). [http://babeljs.io/learn-es2015/](ECMAScript 2015) standard is used to write core script file. [Uglify-JS](https://www.npmjs.com/package/uglify-js) is used to compress core script file.
+| JavaScript Linting | JavaScript Linting is done using [ESLint](https://eslint.org). [ECMAScript 2015](http://babeljs.io/learn-es2015) standard is used to write core script file. [Uglify-JS](https://www.npmjs.com/package/uglify-js) is used to compress core script file.
 | Bootstrap Linting | Bootstrap Linting is done using [Bootlint](https://www.npmjs.com/package/bootlint).
 | Cross Device Sync | [BrowserSync](https://www.browsersync.io) server for viewing your site locally while you develop.
 | Image Compression | [Imagemin](https://www.npmjs.com/package/gulp-imagemin) is used to compress JPG, PNG and GIF files. There are three different IMAGEMIN plugins used in this boilerplate and their settings can be adjusted within `gulpfile.js`.
