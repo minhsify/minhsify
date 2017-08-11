@@ -1,0 +1,10 @@
+// THEME.scss
+
+button {
+  @extend %button;
+  @include font-size(14);
+}
+
+body {
+  padding-top: 3.5rem;
+}

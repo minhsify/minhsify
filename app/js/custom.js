@@ -1,0 +1,22 @@
+//========================
+// Strict Syntax Rendering
+//========================
+"use strict";
+
+//==================
+// Application Logic
+//==================
+var myApp = {};
+myApp.init = () => {
+	const SLANG = "Eh! ";
+	const SPEAK = "Today, The weather is: ";
+	let weather = 100;
+	document.querySelector(".msg").textContent = SLANG + SPEAK + weather;
+};
+
+//===============
+// Initialization
+//===============
+$(function() {
+	myApp.init();
+});

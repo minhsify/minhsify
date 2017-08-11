@@ -1,0 +1,24 @@
+// LAYOUT.scss
+// Declare responsive grid structure here
+
+// HTML, BODY
+html {
+  font-size: 16px;
+}
+
+// BODY
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// RESPONSIVE MEDIA
+img, 
+embed,
+object,
+video {
+  max-width: 100%;
+}
