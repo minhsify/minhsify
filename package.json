@@ -27,7 +27,7 @@
     "favicon-update": "real-favicon check-for-update --fail-on-update faviconData.json",
     "copy": "mkdirp dist/js/vendor -p && mkdirp dist/css/vendor -p && mkdirp dist/fonts -p && run-s vendor_css vendor_js vendor_fonts vendor_media vendor_player",
     "vendor_css": "copyfiles -f node_modules/mediaelement/build/mediaelementplayer.min.css dist/css/vendor",
-    "vendor_js": "copyfiles -f node_modules/mediaelement/build/mediaelement-and-player.min.js node_modules/html5shiv/dist/html5shiv.min.js app/js/respond.min.js app/js/bootstrap-fixes.js node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/popper.js/dist/umd/popper.min.js dist/js/vendor",
+    "vendor_js": "copyfiles -f node_modules/mediaelement/build/mediaelement-and-player.min.js node_modules/html5shiv/dist/html5shiv.min.js node_modules/html5shiv/dist/html5shiv-printshiv.min.js app/js/bootstrap-fixes.js node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/popper.js/dist/umd/popper.min.js dist/js/vendor",
     "vendor_fonts": "copyfiles -f node_modules/font-awesome/fonts/**/*.* dist/fonts",
     "vendor_media": "rimraf dist/media && cp -r app/media dist/",
     "vendor_player": "copyfiles -f node_modules/mediaelement/build/*.{svg,png} dist/css/vendor",
