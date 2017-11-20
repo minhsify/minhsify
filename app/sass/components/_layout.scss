@@ -15,9 +15,83 @@ body {
 }
 
 // RESPONSIVE MEDIA
-img, 
+img,
 embed,
 object,
 video {
   max-width: 100%;
+}
+
+// LAYOUT
+.col {
+  @include make-col-ready();
+  &.col--full {
+    @include make-col(12);
+  }
+  &.col--semi {
+    @include make-col(6);
+    @media #{$small} {
+      @include make-col(12);
+    }
+  }
+  &.col--one {
+    @include make-col(1);
+    @media #{$small} {
+      @include make-col(12);
+    }
+  }
+  &.col--two {
+    @include make-col(2);
+    @media #{$small} {
+      @include make-col(12);
+    }
+  }
+  &.col--three {
+    @include make-col(3);
+    @media #{$small} {
+      @include make-col(12);
+    }
+  }
+  &.col--four {
+    @include make-col(4);
+    @media #{$small} {
+      @include make-col(12);
+    }
+  }
+  &.col--five {
+    @include make-col(5);
+    @media #{$small} {
+      @include make-col(12);
+    }
+  }
+  &.col--seven {
+    @include make-col(7);
+    @media #{$small} {
+      @include make-col(12);
+    }
+  }
+  &.col--eight {
+    @include make-col(8);
+    @media #{$small} {
+      @include make-col(12);
+    }
+  }
+  &.col--nine {
+    @include make-col(9);
+    @media #{$small} {
+      @include make-col(12);
+    }
+  }
+  &.col--ten {
+    @include make-col(10);
+    @media #{$small} {
+      @include make-col(12);
+    }
+  }
+  &.col--eleven {
+    @include make-col(11);
+    @media #{$small} {
+      @include make-col(12);
+    }
+  }
 }

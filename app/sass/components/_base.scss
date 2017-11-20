@@ -14,7 +14,7 @@
   Box-Model, Floats, Size
   Typography, Color, Alignment
   Visual, Border
-  Additional 
+  Additional
 */
 
 /* -- THIRD PARTY LINKS FOR HTML
@@ -43,9 +43,7 @@ SCSS Guide: http://thesassway.com/
 // FONT MIXIN DECLARATION
 // FONT WEIGHTS
 // SELECTION COLOR DECLARATION
-// HYPERLINK MIXIN DECLARATION
-// BOOTSTRAP FIXES
-// HELPERS
+// MEDIA QUERIES
 
 // FONT MIXIN DECLARATION
 @mixin font-size($sizeValue: 16) {
@@ -69,3 +67,14 @@ $fw-black: 900;
   color: white;
   background-color: black;
 }
+
+// MEDIA QUERIES DECLARATION
+// Check this link for more information: http://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints
+$small: "only screen and (max-width: 576px)";
+$medium: "only screen and (max-width: 768px)";
+$large: "only screen and (max-width: 992px)";
+$xlarge: "only screen and (max-width: 1200px)";
+$small__up: "only screen and (min-width: 576px)";
+$medium__up: "only screen and (min-width: 768px)";
+$large__up: "only screen and (min-width: 992px)";
+$xlarge__up: "only screen and (min-width: 1200px)";
