@@ -22,7 +22,7 @@ video {
   max-width: 100%;
 }
 
-// LAYOUT
+// GRIDS (Feel free to change these)
 .col {
   @include make-col-ready();
   &.col--full {

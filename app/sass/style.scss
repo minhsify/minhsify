@@ -1,31 +1,37 @@
 @charset "UTF-8";
 
-// ROBOTO
+// ADD GOOGLE FONTS CDN HERE:
+// Check this link for more info: https://fonts.google.com/
+// 1. ROBOTO
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
 
-// PRIMARY
+// BASE STYLES (UNIVERSAL)
 @import "components/base";
 
-// BOOTSTRAP - BASE
+// BASE STYLES (FOR BOOTSTRAP ONLY)
 @import "core/bootstrap-func";
 @import "core/bootstrap-vars";
 
-// PRIMARY - ADDONS
+// ADDON STYLES (FOR BOOTSTRAP ONLY)
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/reboot";
 @import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
 @import "../../node_modules/bootstrap/scss/grid";
-@import "../../node_modules/font-awesome/scss/font-awesome.scss";
-// BOOTSTRAP - ADDONS (Import any component e.g. NAVBAR and override their settings in VARIABLES file)
+// BOOTSTRAP (ADDITIONAL COMPONENTS)
+// (Import any component e.g. NAVBAR and override their settings in VARIABLES file)
 // @import "../../node_modules/bootstrap/scss/navbar";
 
-// SECONDARY
+// VENDOR STYLES
+// 1. FontAwesome
+@import "../../node_modules/font-awesome/scss/font-awesome.scss";
+
+// APP STYLES
 @import "components/layout";
 @import "components/module";
 @import "components/state";
 @import "components/theme";
 
-// MEDIA QUERIES SHEETS
+// RESPONSIVE STYLES (MEDIA QUERIES ONLY)
 @media #{$xlarge} {
   @import "queries/xlarge";
 }

@@ -40,10 +40,10 @@ CSS Values: http://cssvalues.com/
 SCSS Guide: http://thesassway.com/
 */
 
-// FONT MIXIN DECLARATION
-// FONT WEIGHTS
+// FONT MIXIN VARS
+// FONT WEIGHTS VARS
 // SELECTION COLOR DECLARATION
-// MEDIA QUERIES
+// MEDIA QUERIES VARS
 
 // FONT MIXIN DECLARATION
 @mixin font-size($sizeValue: 16) {
@@ -51,7 +51,7 @@ SCSS Guide: http://thesassway.com/
   font-size: ($sizeValue / 16) + rem;
 }
 
-// FONT WEIGHTS
+// FONT WEIGHTS VARS
 $fw-light: 300;
 $fw-regular: 400;
 $fw-medium: 500;
@@ -68,7 +68,7 @@ $fw-black: 900;
   background-color: black;
 }
 
-// MEDIA QUERIES DECLARATION
+// MEDIA QUERIES VARS
 // Check this link for more information: http://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints
 // 36rem = 576px
 // 48rem = 768px
