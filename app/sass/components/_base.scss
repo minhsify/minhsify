@@ -70,11 +70,15 @@ $fw-black: 900;
 
 // MEDIA QUERIES DECLARATION
 // Check this link for more information: http://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints
-$small: "only screen and (max-width: 576px)";
-$medium: "only screen and (max-width: 768px)";
-$large: "only screen and (max-width: 992px)";
-$xlarge: "only screen and (max-width: 1200px)";
-$small__up: "only screen and (min-width: 576px)";
-$medium__up: "only screen and (min-width: 768px)";
-$large__up: "only screen and (min-width: 992px)";
-$xlarge__up: "only screen and (min-width: 1200px)";
+// 36rem = 576px
+// 48rem = 768px
+// 62rem = 992px
+// 75rem = 1200px
+$small: "(max-width: 36rem)";
+$medium: "(max-width: 48rem)";
+$large: "(max-width: 62rem)";
+$xlarge: "(max-width: 75rem)";
+$small__up: "(min-width: 36rem)";
+$medium__up: "(min-width: 48rem)";
+$large__up: "(min-width: 62rem)";
+$xlarge__up: "(min-width: 75rem)";

@@ -5,6 +5,8 @@
 
 // PRIMARY
 @import "components/base";
+
+// BOOTSTRAP - BASE
 @import "core/bootstrap-func";
 @import "core/bootstrap-vars";
 
@@ -22,3 +24,17 @@
 @import "components/module";
 @import "components/state";
 @import "components/theme";
+
+// MEDIA QUERIES SHEETS
+@media #{$xlarge} {
+  @import "queries/xlarge";
+}
+@media #{$large} {
+  @import "queries/large";
+}
+@media #{$medium} {
+  @import "queries/medium";
+}
+@media #{$small} {
+  @import "queries/small";
+}
