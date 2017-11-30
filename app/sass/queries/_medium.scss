@@ -6,3 +6,9 @@
   color: white;
   background-color: green;
 }
+
+.blog {
+  &-col {
+    @include make-col(12);
+  }
+}
