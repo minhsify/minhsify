@@ -47,6 +47,6 @@ Create a new directory with name `media` inside `app` directory. Please store an
 #### 5. What additional steps to take into consideration while coding an application using this framework?
 1.  Please use `https://` protocol for any third-party library/resource included in `default.pug`. Please follow this approach while importing Google fonts in `style.scss`.
 2.  Please use HTTP2 `defer` or `async` attributes when you want to load scripts in document's `head`.
-3.  Preload assets in the `default.pug` file. See the following links: [Preload](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)
+3.  Preload assets in the `default.pug` file. See the following link: [MDN: Preload](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types).
 #### 6. Are there any tricks to speed up development process?
 Use `npm run bs` to quickly fetch and see Bootstrap SCSS variables under `app/sass` location. Use `npm run bsx` to remove that fetched file.
