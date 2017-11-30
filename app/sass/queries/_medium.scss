@@ -7,8 +7,8 @@
   background-color: green;
 }
 
-.blog {
-  &-col {
+.site-blog {
+  &-column {
     @include make-col(12);
   }
 }

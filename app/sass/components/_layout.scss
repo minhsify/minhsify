@@ -27,11 +27,8 @@ video {
 //   @include make-col-ready();
 //   @include make-col(12);
 // }
-.blog {
-  &-row {
-    @include make-row();
-  }
-  &-col {
+.site-blog {
+  &-column {
     @include make-col-ready();
     @include make-col(4);
   }
