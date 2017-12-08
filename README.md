@@ -22,6 +22,7 @@ Web App Kit is a boilerplate to create Front-End web applications based on Boots
 | Image Compression | [Imagemin](https://www.npmjs.com/package/gulp-imagemin) is used to compress JPG, PNG and GIF files. There are three different IMAGEMIN plugins used in this boilerplate and their settings can be adjusted within `gulpfile.js`.
 | Offline Support | Support for fetching Google Web Fonts locally to maintain your site's fonts for Intranet based applications using [Google Fonts Plugin](https://www.npmjs.com/package/gulp-google-webfonts).
 | NPM Plugins | Usage of [NPM Library](https://www.npmjs.com/package/package) to fetch addon libraries like jQuery, Bootstrap etc.
+| Yarn | Usage of [Yarn](https://yarnpkg.com/en/) to install and run dependencies.
 | Addons | [FontAwesome](http://fontawesome.io/icons), [Real Favicon](http://realfavicongenerator.net), [jQuery](http://jquery.com), [HTML5Shiv](https://www.npmjs.com/package/html5shiv), [Humans file generator](https://www.npmjs.com/package/gulp-humans), [Robots file generator](https://www.npmjs.com/package/gulp-robots) libraries included with this boilerplate.
 | Audio/Video | Usage of [MediaElement.js](https://www.mediaelementjs.com/) for cross browser player rendering.
 | SVG Sprites | You can disable generation of `sprite.svg` by removing `npm run sprites` from `svgs` script.
@@ -31,8 +32,8 @@ Web App Kit is a boilerplate to create Front-End web applications based on Boots
 #### 1. What are the steps to clone and run this boilerplate?
 1.  Create a new directory on your machine: `mkdir ~/Desktop/my-app`.
 2.  Open the directory using terminal: `cd my-app`.
-3.  Clone this repository: `git clone https://github.com/tpkahlon/npm-app.git .`.
-4.  Run: `npm i`.
+3.  Clone this repository: `git clone https://github.com/tpkahlon/npm-app-b4.git .`.
+4.  Run: `yarn`.
 #### 2. What if I get Administrative authentication errors?
 Run following command in Terminal: `sudo chown -R $(whoami) ~/.npm`.
 #### 3. How to store additional assets indirectly related to this application?
@@ -49,4 +50,4 @@ Create a new directory with name `media` inside `app` directory. Please store an
 2.  Please use HTTP2 `defer` or `async` attributes when you want to load scripts in document's `head`.
 3.  Preload assets in the `default.pug` file. See the following link: [MDN: Preload](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types).
 #### 6. Are there any tricks to speed up development process?
-Use `npm run bs` to quickly fetch and see Bootstrap SCSS variables under `app/sass` location. Use `npm run bsx` to remove that fetched file.
+Use `yarn run bs` to quickly fetch and see Bootstrap SCSS variables under `app/sass` location. Use `yarn run bsx` to remove that fetched file.
