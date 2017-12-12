@@ -22,7 +22,7 @@ Web App Kit is a boilerplate to create Front-End web applications based on Boots
 | Image Compression | [Imagemin](https://www.npmjs.com/package/gulp-imagemin) is used to compress JPG, PNG and GIF files. There are three different IMAGEMIN plugins used in this boilerplate and their settings can be adjusted within `gulpfile.js`.
 | Offline Support | Support for fetching Google Web Fonts locally to maintain your site's fonts for Intranet based applications using [Google Fonts Plugin](https://www.npmjs.com/package/gulp-google-webfonts).
 | NPM Plugins | Usage of [NPM Library](https://www.npmjs.com/package/package) to fetch addon libraries like jQuery, Bootstrap etc.
-| Yarn | Usage of [Yarn](https://yarnpkg.com/en/) to install and run dependencies.
+| Yarn | Usage of [Yarn](https://yarnpkg.com/en/) to install and run dependencies. Please install Yarn on your platform using this [link](https://yarnpkg.com/en/docs/install).
 | Addons | [FontAwesome](http://fontawesome.io/icons), [Real Favicon](http://realfavicongenerator.net), [jQuery](http://jquery.com), [HTML5Shiv](https://www.npmjs.com/package/html5shiv), [Humans file generator](https://www.npmjs.com/package/gulp-humans), [Robots file generator](https://www.npmjs.com/package/gulp-robots) libraries included with this boilerplate.
 | Audio/Video | Usage of [MediaElement.js](https://www.mediaelementjs.com/) for cross browser player rendering.
 | SVG Sprites | You can disable generation of `sprite.svg` by removing `npm run sprites` from `svgs` script.
