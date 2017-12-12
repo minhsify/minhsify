@@ -6,9 +6,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tpkahlon/npm-app"
+    "url": "https://github.com/tpkahlon/npm-app-b4"
   },
-  "bugs": "https://github.com/tpkahlon/npm-app/issues",
+  "bugs": "https://github.com/tpkahlon/npm-app-b4/issues",
   "keywords": [
     "npm",
     "scripts",
@@ -36,8 +36,8 @@
     "autoprefixer": "postcss --no-map -u autoprefixer -r dist/css/*.css",
     "scripts": "run-s js-transform lint uglify",
     "js-transform": "mkdirp dist/js -p && babel app/js/custom.js -o dist/js/custom.js",
-    "lint": "eslint app/js/custom.js || true",
-    "uglify": "uglifyjs dist/js/custom.js -cmo dist/js/custom.js",
+    "lint": "eslint app/js/custom.js --fix || true",
+    "uglify": "uglifyjs dist/js/custom.js -co dist/js/custom.js",
     "svgs": "svgo -f app/images/icons -o dist/images/icons && npm run sprites",
     "sprites": "svg-sprite-generate -d app/images/icons -o dist/images/sprite.svg",
     "html": "pug --pretty app/pug/pages/*.pug -o dist && run-s favicon-html bootlint beautify",
