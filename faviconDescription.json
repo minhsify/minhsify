@@ -1,6 +1,6 @@
 {
 	"masterPicture": "app/images/master_picture.png",
-	"iconsPath": "icons",
+	"iconsPath": "",
 	"design": {
 		"ios": {
 			"pictureAspect": "noChange",
@@ -30,7 +30,7 @@
 			"pictureAspect": "shadow",
 			"themeColor": "#ffffff",
 			"manifest": {
-				"name": "npm-app",
+				"name": "application",
 				"display": "standalone",
 				"orientation": "notSet",
 				"onConflict": "override",
