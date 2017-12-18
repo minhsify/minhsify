@@ -19,7 +19,6 @@ This template is a boilerplate to create Front-End web applications based on Boo
 | Bootstrap Linting | Bootstrap Linting is provided using [Bootlint](https://www.npmjs.com/package/bootlint).
 | Cross Device Sync | [BrowserSync](https://www.browsersync.io) server for viewing your site locally while you develop.
 | Image Compression | [Imagemin-CLI](https://www.npmjs.com/package/imagemin-cli) is used to compress JPG, PNG and GIF files.
-| Offline Support | Support for fetching Google Web Fonts locally using [Gulp Google Fonts](https://www.npmjs.com/package/gulp-google-webfonts).
 | Yarn | Use [Yarn](https://yarnpkg.com/en/) to install and run dependencies. Please install Yarn on your platform using this [link](https://yarnpkg.com/en/docs/install).
 | Addons | [FontAwesome](http://fontawesome.io/icons), [Real Favicon](http://realfavicongenerator.net), [jQuery](http://jquery.com) libraries included with this boilerplate.
 | SVG Sprites | You can disable generation of `sprite.svg` by removing `npm run sprites` from `svgs` script.
@@ -48,3 +47,7 @@ Create a new directory with name `media` inside `app` directory. Please store an
 3.  Preload assets in the `default.pug` file. See the following link: [Mozilla: Preload](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types).
 #### 6. Are there any tricks to speed up development process?
 Use `npm run bs` to quickly fetch and see Bootstrap SCSS variables under `app/sass` location. Use `npm run bsx` to remove that fetched file.
+
+# Outstanding Issues
+#### 1. How to download Google fonts locally for Intranet sites?
+1. Offline Support is not fully supported. Fetching Google Web Fonts locally using [Gulp Google Fonts](https://www.npmjs.com/package/gulp-google-webfonts) is under testing.
