@@ -46,7 +46,7 @@
     "beautify": "js-beautify -qrtf ./dist/*.html",
     "images": "imagemin app/images/* -o dist/images",
     "serve": "browser-sync start --server --serveStatic dist --files \"dist/css/*.css, dist/js/*.js, **/*.html, app/pug/pages/*.pug, dist/images/*.*, !node_modules\"",
-    "all": "run-s clean copy f-update f-generate html styles scripts svgs images watch",
+    "all": "run-s clean copy f-generate f-update html styles scripts svgs images watch",
     "watch:css": "onchange \"app/sass\" -- run-s styles",
     "watch:js": "onchange \"app/js\" -- run-s scripts",
     "watch:html": "onchange \"app/pug/_includes\" \"app/pug/_layouts\" \"app/pug/_partials\" \"app/pug/pages\" -- run-s html",
