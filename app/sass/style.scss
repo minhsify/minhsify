@@ -9,8 +9,8 @@
 @import "components/base";
 
 // BASE STYLES (FOR BOOTSTRAP ONLY)
-@import "core/bootstrap-func";
-@import "core/bootstrap-vars";
+@import "core/functions";
+@import "core/variables";
 
 // ADDON STYLES (FOR BOOTSTRAP ONLY)
 @import "../../node_modules/bootstrap/scss/mixins";

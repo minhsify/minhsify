@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "bs": "copyfiles -f node_modules/bootstrap/scss/{_variables.scss,_functions.scss} app/sass",
-    "x-bs": "rimraf app/sass/{_variables.scss,_functions.scss}",
+    "bsx": "rimraf app/sass/{_variables.scss,_functions.scss}",
     "clean": "rimraf dist",
     "f-make": "real-favicon generate faviconDescription.json faviconData.json dist/",
     "f-inject": "real-favicon inject faviconData.json dist dist/*.html",
@@ -42,7 +42,7 @@
     "b-html": "js-beautify -qrtf ./dist/*.html",
     "images": "imagemin app/images/* -o dist/images",
     "serve": "browser-sync start --server --serveStatic dist --files \"dist/css/*.css, dist/js/*.js, **/*.html, app/pug/pages/*.pug, dist/images/*.*, !node_modules\"",
-    "copy": "run-s m-dirs v-js v-fonts v-text",
+    "copy": "run-s bs m-dirs v-js v-fonts v-text",
     "pages": "run-s f-inject l-html b-html",
     "styles": "run-s l-scss scss a-scss",
     "scripts": "run-s js l-js u-js",
