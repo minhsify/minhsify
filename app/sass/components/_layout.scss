@@ -22,6 +22,26 @@ video {
   max-width: 100%;
 }
 
+// CONTAINER BREAKPOINTS
+.container {
+  @media #{$small} {
+    width: 100%;
+    max-width: 100%;
+  }
+  @media #{$small__up} {
+    max-width: 36rem;
+  }
+  @media #{$medium__up} {
+    max-width: 48rem;
+  }
+  @media #{$large__up} {
+    max-width: 62rem;
+  }
+  @media #{$xlarge__up} {
+    max-width: 75rem;
+  }
+}
+
 // GRIDS (Feel free to change these)
 // .column {
 //   @include make-col-ready();
