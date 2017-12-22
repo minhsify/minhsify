@@ -37,7 +37,7 @@
     "u-js": "uglifyjs dist/js/custom.js -co dist/js/custom.js",
     "svgs": "svgo -f app/images/icons -o dist/images/icons",
     "ssg": "svg-sprite-generate -d app/images/icons -o dist/images/sprite.svg",
-    "html": "pug --pretty app/pug/pages/*.pug -o dist",
+    "html": "pug --pretty app/pug/pages -o dist/",
     "l-html": "bootlint ./dist/*.html || true",
     "b-html": "js-beautify -qrtf ./dist/*.html",
     "images": "imagemin app/images/* -o dist/images",
