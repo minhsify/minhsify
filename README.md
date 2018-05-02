@@ -29,7 +29,7 @@ This template is a boilerplate to create Front-End web applications based on Boo
 #### 1. What are the steps to clone and run this boilerplate?
 1.  Create a new directory on your machine: `mkdir ~/Desktop/my-app`.
 2.  Open the directory using terminal: `cd my-app`.
-3.  Clone this repository: `git clone https://github.com/tpkahlon/npm-app-b4.git .`.
+3.  Clone this repository: `git clone https://github.com/tpkahlon/yarn-app.git .`.
 4.  Run: `yarn`.
 #### 2. What if I get Administrative authentication errors? (Optional)
 Run following command in Terminal: `sudo chown -R $(whoami) ~/.yarn`.
