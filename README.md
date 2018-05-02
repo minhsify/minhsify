@@ -32,7 +32,7 @@ This template is a boilerplate to create Front-End web applications based on Boo
 3.  Clone this repository: `git clone https://github.com/tpkahlon/npm-app-b4.git .`.
 4.  Run: `yarn`.
 #### 2. What if I get Administrative authentication errors? (Optional)
-Run following command in Terminal: `sudo chown -R $(whoami) ~/.npm`.
+Run following command in Terminal: `sudo chown -R $(whoami) ~/.yarn`.
 #### 3. How to store additional assets indirectly related to this application?
 Create a new directory with name `media` inside `app` directory. Please store any PSD, AI, EPS, DOC, TXT, PDF files here. Please use lowercase letters when storing files under `media` folder. Please use hyphens instead of underscores for longer filenames. Do not add spaces inbetween filenames.
 #### 4. What steps to follow when application's coding is complete?
